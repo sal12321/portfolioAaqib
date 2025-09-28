@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mohammed Aaqib — Portfolio</title>
+  <meta name="description" content="Portfolio of Mohammed Aaqib — BTech student and Java / Full-Stack developer." />
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#hero" data-scroll>Mohammed Aaqib</a>
+
+      <nav id="navLinks" class="nav-links" aria-label="Primary">
+        <a href="#about" data-scroll>About</a>
+        <a href="#projects" data-scroll>Projects</a>
+        <a href="#skills" data-scroll>Skills</a>
+        <a href="#contact" data-scroll>Contact</a>
+        <a href="resume.pdf" class="btn small" download>Resume</a>
+      </nav>
+
+      <button id="menuToggle" class="menu-btn" aria-expanded="false" aria-controls="navLinks" title="Menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="hero" class="hero section container">
+      <div class="hero-left fade-in slide-up">
+        <h1>Hi — I'm <span class="highlight">Mohammed Aaqib</span></h1>
+        <p class="lead">BTech | Java &amp; Web Developer — building thoughtful, well-tested software and clean UIs.</p>
+        <div class="hero-ctas">
+          <button class="btn primary" data-scroll-to="projects">View My Work</button>
+          <a class="btn outline" href="mailto:your.email@example.com">Email Me</a>
+        </div>
+        <ul class="hero-meta">
+          <li>Java · Spring Boot · JDBC</li>
+          <li>HTML · CSS · JavaScript</li>
+          <li>Databases · <a href="https://github.com/sal12321" target="_blank" rel="noopener">Git</a></li>
+        </ul>
+      </div>
+
+      <div class="hero-right fade-in zoom-in">
+        <!-- circular framed image -->
+        <div class="avatar-wrap" aria-hidden="false">
+          <img src="./images/profile1.png" alt="Photo of Mohammed Aaqib" class="avatar" />
+          <div class="avatar-ring" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container card-lift fade-in">
+      <div class="about-grid">
+        <div>
+          <h2>About</h2>
+          <p>I am a BTech student and a Java/Full-Stack developer in the making. I enjoy building projects that teach me real-world concepts such as JDBC, database design, and separation of concerns. I focus on clean code, simple architectures, and shipping features that work reliably.</p>
+          <p class="muted">Open to internships &amp; collaboration — message me using the contact form or on GitHub.</p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat">
+            <strong>4+</strong>
+            <span>Projects</span>
+          </div>
+          <div class="stat">
+            <strong>Java</strong>
+            <span>Primary</span>
+          </div>
+          <div class="stat">
+            <strong>Databases</strong>
+            <span>MySQL / JDBC</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <h2 class="section-title fade-in">Projects</h2>
+      <div class="projects-grid">
+        <!-- CARD 1 -->
+        <article class="card project-card hover-scale fade-in">
+          <div class="card-media">
+            <img src="./images/project1.png" alt="Banking System screenshot" class="project-thumb" />
+            <div class="ribbon">Java</div>
+          </div>
+          <div class="card-body">
+            <h3>Bank Management System</h3>
+            <p class="muted">A mid-level banking system with account creation, transactions, admin features, and secure PIN handling.</p>
+            <div class="tech">
+              <span class="tech-badge">Java</span>
+              <span class="tech-badge">JDBC</span>
+              <span class="tech-badge">MySQL</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn small outline" href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn small" href="#" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="card project-card hover-scale fade-in">
+          <div class="card-media">
+            <img src="./images/project2.png" alt="StudyPartner screenshot" class="project-thumb" />
+            <div class="ribbon alt">Fullstack</div>
+          </div>
+          <div class="card-body">
+            <h3>StudyPartner Finder</h3>
+            <p class="muted">A web app to connect students locally — filters, search and a lightweight chat feature.</p>
+            <div class="tech">
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">JS</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn small outline" href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn small" href="#" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-card card">
+            <div class="skill-icon">🧩</div>
+            <h3>Programming</h3>
+            <p class="muted">Core fundamentals, algorithms and object oriented design.</p>
+            <div class="skill-list">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">C++</span>
+              <span class="skill-pill">Python</span>
+            </div>
+          </div>
+
+          <!-- Web -->
+          <div class="skill-card card">
+            <div class="skill-icon">🌐</div>
+            <h3>Web Development</h3>
+            <p class="muted">Modern responsive frontends and clean semantic HTML/CSS.</p>
+            <div class="skill-list">
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">Vanilla JS</span>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-card card">
+            <div class="skill-icon">🗄️</div>
+            <h3>Databases</h3>
+            <p class="muted">Designing schemas, CRUD operations, and connectivity.</p>
+            <div class="skill-list">
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">SQLite</span>
+              <span class="skill-pill">JDBC</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-card card">
+            <div class="skill-icon">🛠️</div>
+            <h3>Tools & Workflow</h3>
+            <p class="muted">Version control, IDEs and deployment basics.</p>
+            <div class="skill-list">
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">GitHub</span>
+              <span class="skill-pill">IntelliJ / VSCode</span>
+            </div>
+          </div>
+
+          <!-- Frameworks -->
+          <div class="skill-card card">
+            <div class="skill-icon">⚡</div>
+            <h3>Frameworks</h3>
+            <p class="muted">Java frameworks for building robust backend systems.</p>
+            <div class="skill-list">
+              <span class="skill-pill">Spring Boot</span>
+              <span class="skill-pill">Servlets</span>
+              <span class="skill-pill">JDBC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container card-lift fade-in">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form contact-card" onsubmit="sendMail(event)" novalidate>
+          <label class="sr-only" for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label class="sr-only" for="email">Your email</label>
+          <input id="email" name="email" type="email" placeholder="Your email" required />
+
+          <label class="sr-only" for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea>
+
+          <div style="display:flex; justify-content:flex-end;">
+            <button type="submit" class="btn primary">Send Message</button>
+          </div>
+        </form>
+
+        <aside class="contact-info contact-card">
+          <h3>Reach out</h3>
+          <p class="muted">Prefer GitHub or LinkedIn? Click below — or send a quick email.</p>
+          <div class="socials">
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub" class="social">
+              <!-- GitHub SVG -->
+              <svg viewBox="0 0 24 24" class="social-icon" aria-hidden="true"><path d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.7 7.2 10.1.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.2-3.5-1.2-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.7-.8 2.1-1.2-.2-.9-.6-1.4-1-1.7-2.3-.3-4.8-1.2-4.8-5.4 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.6.1-3.4 0 0 .9-.3 3 1.1.9-.3 1.9-.5 2.9-.5 1 0 2 .2 2.9.5 2.1-1.4 3-1.1 3-1.1.6 1.8.2 3.1.1 3.4.7.8 1.1 1.7 1.1 2.9 0 4.2-2.5 5.1-4.8 5.4.4.4.7 1 .7 2v3c0 .3.2.6.7.5 4.2-1.4 7.2-5.4 7.2-10.1C23.1 5.3 18.3.5 12 .5z"/></svg>
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social">
+              <!-- LinkedIn SVG -->
+              <svg viewBox="0 0 24 24" class="social-icon" aria-hidden="true"><path d="M4.98 3.5C4.98 4.9 3.87 6 2.5 6 1.1 6 0 4.9 0 3.5 0 2.1 1.1 1 2.5 1 3.87 1 4.98 2.1 4.98 3.5zM0 8h5v14H0zM7 8h4.8v2h.1c.7-1.2 2.5-2.4 5.1-2.4 5.4 0 6.4 3.6 6.4 8.3V22H18v-6.6c0-1.6 0-3.7-2.3-3.7-2.3 0-2.6 1.8-2.6 3.5V22H7V8z"/></svg>
+            </a>
+
+            <a href="mailto:your.email@example.com" class="social" aria-label="Email">
+              <!-- Mail SVG -->
+              <svg viewBox="0 0 24 24" class="social-icon" aria-hidden="true"><path d="M12 13L0 6v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6l-12 7zM12 11L24 4H0l12 7z"/></svg>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Mohammed Aaqib. All rights reserved.</p>
+      <small class="muted">Built with plain HTML • CSS • JavaScript</small>
+    </div>
+  </footer>
+
+  <!-- toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- <script src="script.js" defer></script> -->
+</body>
+</html>
