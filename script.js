@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Contact form: simulate sending and show small toast message
   window.sendMail = function (ev) {
+    
     ev.preventDefault();
     const form = ev.target;
     const name = (form.name && form.name.value || '').trim();
