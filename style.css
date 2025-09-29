@@ -492,11 +492,11 @@ h1 {
 }
 
 .skill-card:nth-child(1) .skill-icon {
-	background: #b700ff;
+	background: #a000c497;
 }
 
 .skill-card:nth-child(2) .skill-icon {
-	background: #0b7998;
+	background: #20a6cb;
 }
 
 .skill-card:nth-child(3) .skill-icon {
@@ -505,6 +505,9 @@ h1 {
 
 .skill-card:nth-child(4) .skill-icon {
 	background: #8b5cf6;
+}
+.skill-card:nth-child(5) .skill-icon {
+	background: #a7d100f8;
 }
 
 .skill-pill {
