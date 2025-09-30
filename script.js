@@ -1,4 +1,4 @@
-// script.js — menu toggle, smooth-scroll, contact form simulation, year, small helpers
+
 document.addEventListener('DOMContentLoaded', function () {
   // Elements
   const menuToggle = document.getElementById('menuToggle');
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const href = el.getAttribute('href') || '';
       if (href.startsWith('#')) {
         const target = document.querySelector(href);
-        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (target) target.scrollIntoView({ behavior:"smooth", block: 'start' });
       }
       // close mobile menu after selecting
       navLinks.classList.remove('show');

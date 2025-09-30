@@ -1,12 +1,4 @@
-/* ==========================================================================
-   Portfolio — Refined styles
-   - Updated avatar layout and contact cards
-   - Accessible focus, responsive
-   ========================================================================== */
 
-/* -----------------------
-   CORE VARIABLES (Light)
-   ----------------------- */
 :root {
 	--white: #ffffff;
 	--black: #000000;
@@ -39,9 +31,7 @@
 	--radius-sm: 8px;
 }
 
-/* -----------------------
-   GLOBAL RESET + LAYOUT
-   ----------------------- */
+
 * {
 	box-sizing: border-box;
 }
@@ -63,8 +53,8 @@ body {
 	transition: background .28s ease, color .28s ease;
 }
 
-a {
-	text-decoration: none;
+a{
+	text-decoration:none;
 
 }
 
@@ -96,9 +86,9 @@ a {
 	overflow: hidden;
 }
 
-/* -----------------------
+/* 
    NAVBAR / HEADER
-   ----------------------- */
+  */
 .navbar {
 	position: sticky;
 	top: 0;
@@ -147,7 +137,7 @@ a {
 }
 
 .btn {
-	border: 1px solid var(--border);
+	/* border: 1px solid var(--border); */
 	padding: .45rem .7rem;
 	border-radius: 8px;
 	background: transparent;
@@ -215,11 +205,11 @@ a {
 	display: flex;
 }
 
-/* -----------------------
+/*
    HERO
-   ----------------------- */
+  */
 .section {
-	padding: 3rem 0;
+	padding: 3rem 1rem;
 }
 
 .hero {
@@ -313,9 +303,9 @@ h1 {
 	pointer-events: none;
 }
 
-/* -----------------------
+/* 
    ABOUT / CARDS
-   ----------------------- */
+    */
 .card-lift {
 	background: var(--surface);
 	border-radius: var(--radius-lg);
@@ -346,9 +336,9 @@ h1 {
 	font-weight: 800;
 }
 
-/* -----------------------
+/* 
    PROJECTS
-   ----------------------- */
+    */
 .section-title {
 	margin-bottom: 1rem;
 	color: var(--nav-bg);
@@ -453,12 +443,14 @@ h1 {
 	background: #384654;
 }
 
-/* MySQL - sky blue */
+.tech-badge:nth-child(4) {
+	background: #384654;
+}
 
 
-/* -----------------------
+/* 
    SKILLS
-   ----------------------- */
+    */
 .skills-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -542,9 +534,9 @@ h1 {
 }
 
 
-/* -----------------------
+/* 
    CONTACT
-   ----------------------- */
+ */
 .contact-grid {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) 320px;
@@ -620,9 +612,9 @@ h1 {
 	fill: currentColor;
 }
 
-/* -----------------------
+/* 
    FOOTER
-   ----------------------- */
+   */
 .footer {
 	background: var(--footer-bg);
 	color: var(--btn-text);
@@ -641,9 +633,9 @@ h1 {
 	opacity: .7;
 }
 
-/* -----------------------
+/* 
    TOAST
-   ----------------------- */
+    */
 .toast {
 	position: fixed;
 	left: 50%;
@@ -668,9 +660,9 @@ h1 {
 	pointer-events: auto;
 }
 
-/* -----------------------
+/*
    UTILITIES & RESPONSIVENESS
-   ----------------------- */
+ */
 
 .fade-in,
 .slide-up,
