@@ -21,7 +21,7 @@
         <a href="#projects" data-scroll>Projects</a>
         <a href="#skills" data-scroll>Skills</a>
         <a href="#contact" data-scroll>Contact</a>
-        <a href="resume.pdf" class="btn small" download>Resume</a>
+        <a href="./resume/ResumeV1.pdf" class="btn small" download>Resume</a>
       </nav>
 
       <button id="menuToggle" class="menu-btn" aria-expanded="false" aria-controls="navLinks" title="Menu">
@@ -61,8 +61,12 @@
       <div class="about-grid">
         <div>
           <h2>About</h2>
-          <p>I am a BTech student and a Java/Full-Stack developer in the making. I enjoy building projects that teach me real-world concepts such as JDBC, database design, and separation of concerns. I focus on clean code, simple architectures, and shipping features that work reliably.</p>
+          <p>I am a BTech student and a Java/Full-Stack developer in the making. Full-Stack Developer with hands-on experience building and deploying Java/Spring Boot applications. Skilled in backend development,
+            RESTful APIs, JWT-based authentication, and database management (MongoDB, MySQL). Experienced in deploying full-stack projects on
+            Railway with performance optimization via Redis caching. Strong foundation in Java, with proficiency in HTML, CSS, JavaScript, and Agile
+            workflow. Seeking a Full-Stack or Backend Developer Intern role to apply technical skills to real-world <applications class=""></applications>.</p>
           <p class="muted">Open to internships &amp; collaboration — message me using the contact form or on GitHub.</p>
+
         </div>
 
         <div class="about-stats">
@@ -89,19 +93,33 @@
         <!-- CARD 1 -->
         <article class="card project-card hover-scale fade-in">
           <div class="card-media">
-            <img src="./images/project1.png" alt="Banking System screenshot" class="project-thumb" />
-            <div class="ribbon">Java</div>
+
+
+<!--            <img src="./images/journal.jpg" alt="Banking System screenshot" class="project-thumb" />-->
+
           </div>
           <div class="card-body">
-            <h3>Bank Management System</h3>
-            <p class="muted">A mid-level banking system with account creation, transactions, admin features, and secure PIN handling.</p>
+            <h3>Journal Entry (Full-Stack Web Application)  <a class = "btn primary" href="https://journal-entry-app-production.up.railway.app/"> <b>visit</B> </a> </h3>
+
+            <p class="muted">Developed a full-stack journaling app with JWT authentication and encrypted credentials</p>
+
+              <ul>
+                <span ><B>Features : </B></span>
+              <li> Developed a full-stack journaling app with JWT authentication and encrypted credentials.</li>
+              <li>   Implemented Redis caching, reducing API response time by 25%.</li>
+              <li>  Documented APIs using Springdoc OpenAPI v3 (Swagger).</li>
+              <li>   Deployed securely with environment-based configurations.</li>
+              <li> Designed responsive, user-friendly front-end interfaces</li>
+            </ul>
             <div class="tech">
               <span class="tech-badge">Java</span>
-              <span class="tech-badge">JDBC</span>
-              <span class="tech-badge">MySQL</span>
+              <span class="tech-badge">Spring-Boot</span>
+              <span class="tech-badge">MongoDb</span>
+              <span class="tech-badge">Redis</span>
+              <span class="tech-badge">JWT</span>
             </div>
             <div class="card-actions">
-              <a class="btn small outline" href="#" target="_blank" rel="noopener">View in guthub</a>
+              <a class="btn small outline primary" href="https://github.com/sal12321/BankIt-JavaEditionJDBC" target="_blank" rel="noopener">View in github</a>
               
             </div>
           </div>
@@ -110,19 +128,26 @@
         <!-- CARD 2 -->
         <article class="card project-card hover-scale fade-in">
           <div class="card-media">
-            <img src="./images/project2.png" alt="StudyPartner screenshot" class="project-thumb" />
-            <div class="ribbon alt">Fullstack</div>
+<!--            <img src="./images/project2.png" alt="StudyPartner screenshot" class="project-thumb" />-->
+
           </div>
           <div class="card-body">
-            <h3>StudyPartner Finder</h3>
-            <p class="muted">A web app to connect students locally — filters, search and a lightweight chat feature.</p>
+            <h3>BankIt — JDBC Java Banking System</h3>
+            <p class="muted">Manage deposits/withdrawals/transfers, and view transaction history.</p>
+            <ul>
+              <span ><B>Features : </B></span>
+             <li> Console-based banking system managing deposits, withdrawals, transfers, and transaction history.</li>
+              <li>   Implemented secure authentication using SHA-256 hashing and input validation.</li>
+              <li>  Role-based Admin/User flows with audit logging of critical actions.</li>
+              <li>  Developed modular utility classes for password hashing and input validation.</li>
+            </ul>
             <div class="tech">
-              <span class="tech-badge">HTML</span>
-              <span class="tech-badge">CSS</span>
-              <span class="tech-badge">JS</span>
+              <span class="tech-badge">Java</span>
+              <span class="tech-badge">JDBC</span>
+
             </div>
             <div class="card-actions">
-             <a class="btn small outline" href="#" target="_blank" rel="noopener">View in guthub</a>
+             <a class="btn small outline primary" href="https://github.com/sal12321/BankIt-JavaEditionJDBC" target="_blank">View in github</a>
               
             </div>
           </div>
@@ -246,7 +271,7 @@
   <footer class="footer">
     <div class="container footer-inner">
       <p>&copy; <span id="year"></span> Muhammad Aaqib. All rights reserved.</p>
-      <small class="muted">Built with plain HTML • CSS • JavaScript</small>
+      <small class="muted">No frameworks. Just code.</small>
     </div>
   </footer>
 

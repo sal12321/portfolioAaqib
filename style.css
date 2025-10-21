@@ -371,6 +371,13 @@ h1 {
 .card-media {
 	position: relative;
 }
+.card-media img{
+
+height:60%  ;
+padding: 0 auto ;
+
+
+}
 
 .project-thumb {
 	width: 100%;
@@ -445,7 +452,10 @@ h1 {
 
 .tech-badge:nth-child(4) {
 	background: #384654;
+}.tech-badge:nth-child(5) {
+	background: #384654;
 }
+
 
 
 /* 
