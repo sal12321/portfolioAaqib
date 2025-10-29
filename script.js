@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Smooth scroll for internal anchors (links with data-scroll or buttons with data-scroll-to)
+
   document.querySelectorAll('[data-scroll]').forEach(el => {
     el.addEventListener('click', (ev) => {
       ev.preventDefault();
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const target = document.querySelector(href);
         if (target) target.scrollIntoView({ behavior:"smooth", block: 'start' });
       }
-      // close mobile menu after selecting
       navLinks.classList.remove('show');
       menuToggle.setAttribute('aria-expanded', 'false');
     });
@@ -40,7 +39,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Close mobile menu when clicking outside (optional small improvement)
   document.addEventListener('click', (e) => {
     if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
       navLinks.classList.remove('show');
@@ -48,11 +46,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // Set current year in footer
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  // Contact form: simulate sending and show small toast message
   window.sendMail = function (ev) {
     
     ev.preventDefault();
@@ -66,14 +62,13 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    // Simulate "sent" — in production replace with real endpoint
     showToast('Message sent — thanks! I will reply soon.');
     form.reset();
     // move focus to first field after sending
     if (form.name) form.name.focus();
   };
 
-  // Toast helper
+
   function showToast(text, duration = 3500) {
     if (!toastEl) return;
     toastEl.textContent = text;
