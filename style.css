@@ -173,6 +173,10 @@ a{
 	box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
 	transition: transform 0.15s ease, box-shadow 0.25s ease;
 }
+#visit{
+	padding : 0.20rem 0.55rem ;
+	margin : 0 0.7rem;
+}
 
 .btn.primary:hover {
 	background: linear-gradient(135deg, #1e4fc1, #2563eb);
