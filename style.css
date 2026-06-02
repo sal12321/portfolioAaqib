@@ -625,6 +625,23 @@ padding: 0 auto ;
 	height: 20px;
 	fill: currentColor;
 }
+.social-icon-linkedin {
+	width: 15px;
+	height: 15px;
+   fill: #FFFFFF; /*Makes the "in" shape white */
+  background-color: #0A66C2; /* Official LinkedIn Blue */
+  border-radius: 4px; /* Gives it the classic rounded square look */
+  padding: 2px; /* Adjust based on your sizing */
+  margin: 0;
+  transform: scale(1.25);
+}
+.social-linkedin{
+	height: 30px;
+	width: 30px;
+	
+	
+}
+
 
 /* 
    FOOTER
