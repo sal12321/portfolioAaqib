@@ -633,7 +633,7 @@ padding: 0 auto ;
   border-radius: 4px; /* Gives it the classic rounded square look */
   padding: 2px; /* Adjust based on your sizing */
   margin: 0;
-  transform: scale(1.25);
+  transform: scale(1.23);
 }
 .social-linkedin{
 	height: 30px;
