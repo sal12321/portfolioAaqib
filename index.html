@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mohammed Aaqib — Portfolio</title>
-  <meta name="description" content="Portfolio of Mohammed Aaqib — BTech student and Java / Full-Stack developer." />
+  <title>Aaqib Alam — Backend Developer</title>
+  <meta name="description" content="Portfolio of Aaqib Alam — Java / Spring Boot backend developer building secure, scalable APIs." />
   <!-- Inter font -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -14,9 +14,10 @@
   <!-- NAV -->
   <header class="navbar" id="navbar">
     <div class="container nav-inner">
-      <a class="brand" href="#hero" data-scroll>Muhammad Aaqib</a>
+      <a class="brand" href="#hero" data-scroll>Aaqib</a>
 
       <nav id="navLinks" class="nav-links" aria-label="Primary">
+        <a href="#experience" data-scroll>Experience</a>
         <a href="#projects" data-scroll>Projects</a>
         <a href="#skills" data-scroll>Skills</a>
         <a href="#contact" data-scroll>Contact</a>
@@ -33,8 +34,8 @@
   <main>
     <section id="hero" class="hero section container">
       <div class="hero-left fade-in slide-up">
-        <h1>Hi — I'm <span class="highlight">Muhammad Aaqib</span></h1>
-        <p class="lead">BTech | Java &amp; Web Developer — building thoughtful, well-tested software and clean UIs.</p>
+        <h1> <span class="highlight">Aaqib Alam</span></h1>
+        <p class="lead">Backend-focused developer working mainly in Java &amp; Spring Boot — I build APIs, wire up auth, and get them running in production.</p>
         <div class="hero-ctas">
           <button class="btn primary" data-scroll-to="projects">View My Work</button>
           <a class="btn outline" href="mailto:aaqibalam290@gmail.com">Email Me</a>
@@ -47,48 +48,18 @@
         <ul class="hero-meta">
           <li>Java · Spring Boot · JDBC</li>
           <li>HTML · CSS · JavaScript</li>
-          <li>Databases · <a href="https://github.com/sal12321" target="_blank" rel="noopener">Git</a></li>
+          <li>MongoDB · MySQL · Redis</li>
         </ul>
       </div>
 
       <div class="hero-right fade-in zoom-in">
         <!-- circular framed image -->
         <div class="avatar-wrap" aria-hidden="false">
-          <img src="./images/profile1.png" alt="Photo of Mohammed Aaqib" class="avatar" />
+          <img src="./images/profile1.png" alt="Photo of Aaqib Alam" class="avatar" />
           <div class="avatar-ring" aria-hidden="true"></div>
         </div>
       </div>
     </section>
-
-    <!-- ABOUT -->
-    <!-- <section id="about" class="section container card-lift fade-in">
-      <div class="about-grid">
-        <div>
-          <h2>About</h2>
-          <p>I am a BTech student and a Java/Full-Stack developer in the making. Full-Stack Developer with hands-on experience building and deploying Java/Spring Boot applications. Skilled in backend development,
-            RESTful APIs, JWT-based authentication, and database management (MongoDB, MySQL). Experienced in deploying full-stack projects on
-            Railway with performance optimization via Redis caching. Strong foundation in Java, with proficiency in HTML, CSS, JavaScript, and Agile
-            workflow. Seeking a Full-Stack or Backend Developer Intern role to apply technical skills to real-world <applications class=""></applications>.</p>
-          <p class="muted">Open to internships &amp; collaboration — message me using the contact form or on GitHub.</p>
-
-        </div>
-
-        <div class="about-stats">
-          <div class="stat">
-            <strong>4+</strong>
-            <span>Projects</span>
-          </div>
-          <div class="stat">
-            <strong>Java</strong>
-            <span>Primary</span>
-          </div>
-          <div class="stat">
-            <strong>Databases</strong>
-            <span>MySQL / JDBC</span>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     
 <!-- ABOUT -->
@@ -99,15 +70,15 @@
       <h2>About Me</h2>
 
       <p>
-        I'm a Computer Science undergraduate and Backend-Focused Full-Stack Developer with experience building secure, scalable web applications using Java, Spring Boot, Node.js, Express.js, and MongoDB. My primary interests lie in backend engineering, API development, authentication systems, database design, and application architecture.
+        I'm a Computer Science undergraduate who spends most of his time on the backend — Java, Spring Boot, and lately Node.js/Express when a project calls for it. I like the parts most people skip: auth flows, API design, and figuring out why something works in dev but not in production.
       </p>
 
       <p>
-        I have developed and deployed production-ready applications featuring JWT authentication, role-based access control (RBAC), Redis caching, Docker containerization, and RESTful APIs. Currently, I am building AI-powered applications by integrating Large Language Models with modern web technologies.
+        Over the last year I've shipped a multi-tenant platform during my internship, built a journaling app with JWT auth and Redis caching, and wired up OAuth 2.0 login from scratch with Spring Security — all deployed and actually running, not just sitting in a repo.
       </p>
 
       <p class="muted">
-        Open to software engineering internships, backend development opportunities, and collaborative projects.
+        Open to backend / full-stack internships and interesting side projects.
       </p>
     </div>
 
@@ -116,79 +87,38 @@
         <strong>5+</strong>
         <span>Projects Built</span>
       </div>
-          <div class="stat">
-            <strong>Java</strong>
-            <span>Primary</span>
-          </div>
+      <div class="stat">
+        <strong>Java</strong>
+        <span>Primary</span>
+      </div>
       <div class="stat">
         <strong>Spring Boot</strong>
         <span>Backend Focus</span>
       </div>
-
       <div class="stat">
         <strong>MongoDB</strong>
-        <span>Database & Caching</span>
+        <span>Database &amp; Caching</span>
       </div>
     </div>
 
   </div>
 </section>
 
-
-<!-- ABOUT -->
-<!-- <section id="about" class="section container card-lift fade-in">
-  <div class="about-grid">
-
-    <div>
-      <h2>About Me</h2>
-
-      <p>
-        I'm a Computer Science undergraduate and Backend-Focused Full-Stack Developer with experience building secure, scalable web applications using Java, Spring Boot, Node.js, Express.js, React, and MongoDB. My primary interests lie in backend engineering, API development, authentication systems, database design, and application architecture.
-      </p>
-
-      <p>
-        I have developed and deployed production-ready applications featuring JWT authentication, role-based access control (RBAC), Redis caching, Docker containerization, and RESTful APIs. Currently, I am building AI-powered applications by integrating Google's Gemini API with modern web technologies.
-      </p>
-
-      <p class="muted">
-        Open to software engineering internships, backend development opportunities, and collaborative projects.
-      </p>
-
-
-      
-<p>
-  Computer Science undergraduate and Backend-Focused Full-Stack Developer specializing in Java, Spring Boot, Node.js, Express.js, React, MongoDB, and MySQL. Experienced in building secure RESTful APIs, implementing JWT authentication, RBAC, Redis caching, and database-driven applications.
-</p>
-
-<p>
-  Built and deployed production-ready applications leveraging Docker, Swagger/OpenAPI, multi-tenant architecture, and cloud platforms. Currently exploring AI-powered application development through Gemini API integration and modern full-stack technologies.
-</p>
-
-
+<!-- EXPERIENCE -->
+<section id="experience" class="section container">
+  <h2 class="section-title fade-in">Experience</h2>
+  <div class="card-lift" style="padding:1.25rem;">
+    <div style="display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; align-items:baseline;">
+      <h3 style="margin:0;">Full-Stack Developer Intern — Sustainable Business Union</h3>
+      <span class="muted">2025 – 2026 · Remote</span>
     </div>
-
-    <div class="about-stats">
-      <div class="stat">
-        <strong>5+</strong>
-        <span>Projects Built</span>
-      </div>
-
-      <div class="stat">
-        <strong>Spring Boot</strong>
-        <span>Backend Focus</span>
-      </div>
-
-      <div class="stat">
-        <strong>MongoDB</strong>
-        <span>Database & APIs</span>
-      </div>
-    </div>
-
+    <ul>
+      <li>Built and deployed a multi-tenant web platform (HTML, CSS, JavaScript, EJS, Express.js, MongoDB) serving multiple live client domains from one codebase.</li>
+      <li>Set up tenant-based routing so each client domain runs independently without duplicating code.</li>
+      <li>Owned the deployment pipeline end to end — all client sites are live in production.</li>
+    </ul>
   </div>
-</section> -->
-
-
-
+</section>
 
 
     <!-- PROJECTS -->
@@ -198,10 +128,7 @@
         <!-- CARD 1 -->
         <article class="card project-card hover-scale fade-in">
           <div class="card-media">
-
-
-
-
+            
           </div>
           <div class="card-body">
             <h3>MindLog App (Full-Stack Spring-Boot Web Application)  <a id = "visit" class = "btn primary" target = "_blank" rel = "noopener" href="https://mindlog-production-97b0.up.railway.app/"> <b>visit</B> </a> </h3>
@@ -231,49 +158,6 @@
             </div>
           </div>
         </article>
-
-        
-
-<!-- React Lottery Simulator -->
-<article class="card project-card hover-scale fade-in">
-  <div class="card-media">
-
-  </div>
-
-  <div class="card-body">
-                <h3>React Lottery  <a id = "visit" class = "btn primary" target = "_blank" rel = "noopener" href="https://react-mini-project-lottery-4g9m-rbepmaokh-sal12321s-projects.vercel.app/"> <b>visit</B> </a> </h3>
-
-    <p class="muted">
-      Interactive lottery built with React, state management, component architecture, and event-driven UI updates.
-    </p>
-
-    <ul>
-      <span><b>Features :</b></span>
-      <li>Generated random lottery numbers with real-time winning condition validation.</li>
-      <li>Implemented React Hooks for state management and dynamic UI rendering.</li>
-      <li>Designed reusable components following component-driven architecture principles.</li>
-      <li>Built responsive and interactive user experiences using React and JavaScript.</li>
-    </ul>
-
-    <div class="tech">
-      <span class="tech-badge">React</span>
-      <span class="tech-badge">JavaScript</span>
-      <span class="tech-badge">Vite</span>
-      <span class="tech-badge">Hooks</span>
-    </div>
-
-    <div class="card-actions">
-
-            <a class="btn small outline primary"
-        href="https://github.com/sal12321/react-mini-project-lottery"
-        target="_blank"
-        rel="noopener">
-        View in GitHub
-      </a>
-    </div>
-  </div>
-</article>
-
 
 <!-- Spring Boot OAuth 2.0 -->
 <article class="card project-card hover-scale fade-in">
@@ -320,8 +204,45 @@
 </div>
 </article>
 
+<!-- React Lottery Simulator -->
+<article class="card project-card hover-scale fade-in">
+  <div class="card-media">
 
+  </div>
 
+  <div class="card-body">
+                <h3>React Lottery  <a id = "visit" class = "btn primary" target = "_blank" rel = "noopener" href="https://react-mini-project-lottery-4g9m-rbepmaokh-sal12321s-projects.vercel.app/"> <b>visit</B> </a> </h3>
+
+    <p class="muted">
+      Interactive lottery built with React, state management, component architecture, and event-driven UI updates.
+    </p>
+
+    <ul>
+      <span><b>Features :</b></span>
+      <li>Generated random lottery numbers with real-time winning condition validation.</li>
+      <li>Implemented React Hooks for state management and dynamic UI rendering.</li>
+      <li>Designed reusable components following component-driven architecture principles.</li>
+      <li>Built responsive and interactive user experiences using React and JavaScript.</li>
+    </ul>
+
+    <div class="tech">
+      <span class="tech-badge">React</span>
+      <span class="tech-badge">JavaScript</span>
+      <span class="tech-badge">Vite</span>
+      <span class="tech-badge">Hooks</span>
+    </div>
+
+    <div class="card-actions">
+
+            <a class="btn small outline primary"
+        href="https://github.com/sal12321/react-mini-project-lottery"
+        target="_blank"
+        rel="noopener">
+        View in GitHub
+      </a>
+    </div>
+  </div>
+</article>
 
 
         <!-- CARD 2 -->
@@ -472,7 +393,7 @@
 
       <!-- Languages -->
       <div class="skill-card card">
-        <div class="skill-icon">☕</div>
+        <div class="skill-icon">{ }</div>
         <h3>Languages</h3>
         <p class="muted">Strong foundation in object-oriented programming, data structures, and backend development.</p>
         <div class="skill-list">
@@ -486,7 +407,7 @@
 
       <!-- Backend -->
       <div class="skill-card card">
-        <div class="skill-icon">⚙️</div>
+        <div class="skill-icon">API</div>
         <h3>Backend Development</h3>
         <p class="muted">Building secure REST APIs, authentication systems, and scalable server-side applications.</p>
         <div class="skill-list">
@@ -501,7 +422,7 @@
 
       <!-- Frontend -->
       <div class="skill-card card">
-        <div class="skill-icon">💻</div>
+        <div class="skill-icon">UI</div>
         <h3>Frontend Development</h3>
         <p class="muted">Developing responsive and interactive user interfaces using modern JavaScript frameworks.</p>
         <div class="skill-list">
@@ -517,7 +438,7 @@
 
       <!-- Databases -->
       <div class="skill-card card">
-        <div class="skill-icon">🗄️</div>
+        <div class="skill-icon">DB</div>
         <h3>Databases & Caching</h3>
         <p class="muted">Database design, persistence, query optimization, and application caching.</p>
         <div class="skill-list">
@@ -530,7 +451,7 @@
 
       <!-- Dev Tools -->
       <div class="skill-card card">
-        <div class="skill-icon">🛠️</div>
+        <div class="skill-icon">CLI</div>
         <h3>Tools & Platforms</h3>
         <p class="muted">Version control, API development, containerization, and cloud deployment workflows.</p>
         <div class="skill-list">
@@ -546,7 +467,7 @@
 
       <!-- Engineering Concepts -->
       <div class="skill-card card">
-        <div class="skill-icon">🚀</div>
+        <div class="skill-icon">SYS</div>
         <h3>Engineering Concepts</h3>
         <p class="muted">Security, architecture, deployment, and scalable application design.</p>
         <div class="skill-list">
@@ -597,8 +518,8 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> Muhammad Aaqib. All rights reserved.</p>
-      <small class="muted">No frameworks. Just code.</small>
+      <p>&copy; <span id="year"></span> Aaqib Alam. All rights reserved.</p>
+      <small class="muted">This page: plain HTML/CSS/JS, no framework.</small>
     </div>
   </footer>
 

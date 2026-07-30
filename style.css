@@ -473,7 +473,10 @@ padding: 0 auto ;
 
 
 .skill-icon {
-	font-size: 28px;
+	font-size: 13px;
+	font-weight: 800;
+	letter-spacing: 0.3px;
+	font-family: 'SF Mono', 'Courier New', monospace;
 	width: 56px;
 	height: 56px;
 	display: flex;
@@ -485,22 +488,27 @@ padding: 0 auto ;
 }
 
 .skill-card:nth-child(1) .skill-icon {
-	background: #a000c497;
+	background: #384654;
 }
 
 .skill-card:nth-child(2) .skill-icon {
-	background: #20a6cb;
+	background: #6db33f;
+	/* Spring Boot green */
 }
 
 .skill-card:nth-child(3) .skill-icon {
-	background: #f59e0b;
+	background: #2563eb;
 }
 
 .skill-card:nth-child(4) .skill-icon {
-	background: #8b5cf6;
+	background: #384654;
 }
 .skill-card:nth-child(5) .skill-icon {
-	background: #a7d100f8;
+	background: #2563eb;
+}
+
+.skill-card:nth-child(6) .skill-icon {
+	background: #6db33f;
 }
 
 .skill-pill {
