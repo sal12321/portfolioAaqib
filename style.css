@@ -440,23 +440,10 @@ padding: 0 auto ;
 }
 
 /* Custom colors per tech (optional but looks great) */
-.tech-badge:nth-child(1) {
+.tech-badge:nth-child(odd) {
 	background: #384654;
 }
-
-/* Java - orange */
-.tech-badge:nth-child(2) {
-	background: #384654;
-}
-
-/* JDBC - green */
-.tech-badge:nth-child(3) {
-	background: #384654;
-}
-
-.tech-badge:nth-child(4) {
-	background: #384654;
-}.tech-badge:nth-child(5) {
+.tech-badge:nth-child(even){
 	background: #384654;
 }
 
